@@ -1,66 +1,118 @@
-##  仓库管理APP使用手册
+---
 
-### 1.登陆操作
+---
 
-打开APP首先进入的是登陆界面，选择账套，输入密码，如下图1.1所示![Screenshot_20180729-105429_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105429_StockManagement.jpg)
+##  STOCK MANAGEMENT USERGUIDE
 
-​                                                                                   图 1.1 登录界面
+[TOC]
+
+### 1.引言
+
+目前STOCK MANAGEMENT 这个APP是针对上海优家的业务来开发的，优家是一个做家居行业的公司，所用的管理系统是SAP BUSINESS ONE。优家的仓管人员对于家具物料进行仓库管理非常的麻烦，面对大型的家具以及打包的家具仓管人员通过手工的录入这些物料耗费时间以及人力，而目前我们做的这个APP可以通过扫码的方式来录入物料可以通过移动端来完成库存任务，以及库存任务汇报，可以很好的解决优家仓库管理存在的诸多问题。
+
+#### 1.1 项目名称
+
+仓库管理/STOCK MANAGEMENT
+
+#### 1.2 编写目的
+
+主要介绍仓库管理客户端APP实现的的业务以及操作方法。预期读者：开发人员，项目管理人员，最终用户人员。
+
+#### 1.3 系统环境配置
+
+#### 1.4按钮定义
+
+在APP上出现的按钮如下
+
+| 按钮名称 | 按钮形状                                                     | 按钮含义                             |
+| -------- | ------------------------------------------------------------ | ------------------------------------ |
+| 后退按钮 | ![](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/backbuton.png) | 后退到上一层页面或者是取消当前操作   |
+| 前进按钮 | ![](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/hello123.png) | 完成当前操作以后选择下一步的按钮     |
+| 保存按钮 | ![D98~GT7}NOEV}2G{%Y_%LYU](C:\Users\zy\Desktop\产品设计文档\APP界面\D98~GT7}NOEV}2G{%Y_%LYU.png) | 最后一步操作，保存当前页面的单据信息 |
+| 添加按钮 | ![HP7RIOM57J%XSD{W5SN1@3I](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/HP7RIOM57J%XSD{W5SN1@3I.png) | 手动来添加物料                       |
+| 扫描按钮 | ![TKTFW3%QX9FD04CMXI`F2RP](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD/TKTFW3%QX9FD04CMXI`F2RP.png) | 通过扫码的方式添加物料               |
 
 
 
-### 2.功能界面
+### 2. 功能概述
 
-点击登录进入APP主页面，点击导航栏的 “功能” 栏，显示的是仓库管理这个功能，在仓库管理下有两个应，分别是库存任务应用，库存汇报应用。用户点击库存任务可以查看以及进行他所要处理的库存任务，完成以后的库存任务可以在库存汇报中来查看或者进行编辑删除等操作。如图2.1所示，![Screenshot_20180729-105451_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105451_StockManagement.jpg)
+#### 2.1 功能结构
+
+仓库管理主要分为APP客户端（安卓版），后台管理两部分，APP客户端（主要包含库存任务、库存汇报两个功能模块），后台包括（）。其中仓库管理APP示意图如下：
+
+![](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/gongneng.png)
+
+### 3.功能说明
+
+#### 3.1 登录功能
+
+##### 3.1.1 功能说明
+
+该功能主要是验证用户信息，设置账套名称。
+
+##### 3.1.2 操作步骤
+
+用户大开APP，如已有账套，直接输入用户名和登录密码，后台验证用户信息，如果没有账套则需要在高级设置里设置账套信息。
+
+![Screenshot_20180731-110552_StockManagement-1533007641136](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180731-110552_StockManagement-1533007641136-1533020673753.jpg)
+
+​                                                          图 3.1 登录界面
+
+
+
+### 3.2 库存任务
+
+#### 3.2.1 功能说明
+
+仓管人员可以通过此功能查询自己的库存任务和库存任务详情，以此来添加物料。
+
+#### 3.2.2 操作步骤
+
+用户点击库存任务图标，打开库存任务如下图所示，
+
+![Screenshot_20180729-105451_StockManagement](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180729-105451_StockManagement.jpg)
 
 ​                                                                                  图 2.1 功能界面
 
-#### 2.1 库存任务应用
-
-用户点击库存任务这个应用，进入到库存任务列表这个界面当中，界面上显示的每一行的订单就是用户要操作的库存任务，用户还可以通过订单编号和合作伙伴的名称来查找相应的库存任务。![Screenshot_20180729-105458_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105458_StockManagement.jpg)
+![Screenshot_20180729-105458_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105458_StockManagement.jpg)
 
 
 
-#### 2.2 库存任务详情界面
-
-用户点击库存任务当中某一行可以查看库存任务详情，如下图2.2所示，点击右下角汇报，页面跳转到库存汇报页面当中去![Screenshot_20180729-105522_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105522_StockManagement.jpg)
-
-#### 2.3库存汇报
-
-用户点击汇报以后跳转到此页面，用户根据实际需要选择添加物料的方式，可以点击右下角的扫描按钮添加，也可以通过左下角的添加来进行手动添加。
-
-![Screenshot_20180729-105548_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105548_StockManagement.jpg)
-
-##### 2.3.1 手动添加物料 
-
-下图是通过手动添加的方式来添加物料 ，用户填写相应的字段信息，填写完毕之后点击确定，物料成功添加。
-
-![Screenshot_20180729-105555_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105555_StockManagement.jpg)
-
-##### 2.3.2 扫码添加物料
-
-下图显示的是通过扫码的方式来添加物料，扫码完毕之后物料信息会显示在此页面上，用户核对物料信息，核对无误后点击右下角的确定保存物料信息，如果核对有误用户可以点击右上角的 ”X“ 取消操作，也可以点击左下角的重新洗扫描。
-
-![Screenshot_20180729-125753_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-125753_StockManagement.jpg)
-
-#### 2.4 库存任务汇报应用
-
-用户点击库存汇报这个应用进入到库存汇报历史这个页面，在这个页面当中主要显示的是完成的所有的库存任务，可以通过搜索单据编号，来查找相应的库存汇报历史，用户可以点击查看任务汇报详情，也可左选择是否要编辑或者删除这个库存任务汇报。如图2.4所示，
-
-![Screenshot_20180729-105813_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105813_StockManagement.jpg)
-
-​                                                               图 2.4 库存任务汇报历史界面
+![Screenshot_20180731-141539_StockManagement](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180731-141539_StockManagement.jpg)
 
 
 
-#### 2.5 库存任务汇报明细
+* 用户在查看所有的库存任务，倘若用户想查看某一单详情，或者是优先做某个任务可以根据订单编号，供应商名称，供应商编码来来查询到这一单。
+* 点击库存任务中的行信息进去查看库存任务详情，在库存任务详情界面用户可以查看当前任务的物料信息。
+* 当查看完毕所有信息之后选择是否进行下一步操作即库存汇报，库存汇报根据当前订单的物料信息添加物料，决定做库存汇报，点击页面又下角的箭头进行汇报操作，不汇就报点击又上角的箭头返回。
 
-用户点击库存任务汇报历史中的某一行进入到库存任务汇报明细的页面，用户在此页面当中查看库存任务汇报详情。查看完毕之后点击页面左上角的箭头返回到库存任务汇报历史的界面。
+#### 3.3 库存汇报
 
-![Screenshot_20180729-105822_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105822_StockManagement.jpg)
+##### 3.3.1功能说明
 
-#### 2.6 库存任务汇报编辑
+库存汇报是仓管人员根据当前的订单信息为物料做出库或者是入库的管理，添加物料有两种方式一种是手动添加，一种是扫码的方式来添加物料，若设备损坏，或者是条码不清晰选择用。
 
-在库存任务汇报历史页面中左滑需要编辑的库存任务汇报行，点击编辑来重新对这个库存任务进行编辑，如下图所示
+##### 3.3.2 操作步骤
 
-![Screenshot_20180729-125753_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-125753_StockManagement.jpg)
+* 库管人员在此页面上点开隐藏的物料信息，根据页面上的物料信息去添加物料。
+* 点击右下角扫描按钮，扫描成功物料信息会在一个物料信息的窗口弹出，核对物料信息，如果核实无误点击右下角的对号按钮保存物料信息。
+* 如果物料信息有误可以点击右上角的“X”取消保存，也可以点击左下角的按钮重新扫描。
+* 物料信息保存完毕之后页面会跳转到库存汇报页面，可以继续添加物料，当所有的物料都添加完毕之后或者暂时添加点击库存汇报页面右上角的对号点击保存生成单据可以在库存汇报功能中查看和修改。
+
+#### 3.4 库存任务汇报
+
+##### 3.4.1 功能说明
+
+在库存任务汇报这个功能中可以查看库存汇报历史以及库存汇报明细，还可以对已经汇报完的库存任务进行删除编辑和修改。
+
+##### 3.4.2操作步骤
+
+![Screenshot_20180731-141816_StockManagement](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180731-141816_StockManagement.jpg)
+
+![Screenshot_20180731-141845_StockManagement](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180731-141845_StockManagement.jpg)
+
+* 点击库存汇报图标进入库存汇报历史界面，此界面显示了所有已经汇报过的库存任务。
+* 点击一行汇报过的库存任务可以查看库存任务详情
+* 左划一行可以选择是编辑还删除这一行。
+* 选择编辑即可以对这个库存任务重新汇报，具体操作与库存任务中 的库存汇报操作相同。
 
