@@ -26,11 +26,11 @@
 
 | 按钮名称 | 按钮形状                                                     | 按钮含义                             |
 | -------- | ------------------------------------------------------------ | ------------------------------------ |
-| 后退按钮 | ![后退](../../../../../Pictures/TKTFW3%QX9FD04CMXI`F2RP.png) | 后退到上一层页面或者是取消当前操作   |
+| 后退按钮 | ![后退]([UserStory](https://github.com/EDITeam/UserStory)/[InventoryManagement](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement)/[MD](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD)/[image](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD/image)/Pictures/TKTFW3%QX9FD04CMXI`F2RP.png) | 后退到上一层页面或者是取消当前操作   |
 | 前进按钮 | ![hello123](../../../../../Pictures/hello123.png)            | 完成当前操作以后选择下一步的按钮     |
 | 保存按钮 | ![D98~GT7}NOEV}2G{%Y_%LYU](C:\Users\zy\Desktop\产品设计文档\APP界面\D98~GT7}NOEV}2G{%Y_%LYU.png) | 最后一步操作，保存当前页面的单据信息 |
 | 添加按钮 | ![HP7RIOM57J%XSD{W5SN1@3I](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/HP7RIOM57J%XSD{W5SN1@3I.png) | 手动来添加物料                       |
-| 扫描按钮 | ![TKTFW3%QX9FD04CMXI`F2RP](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD/TKTFW3%QX9FD04CMXI`F2RP.png) | 通过扫码的方式添加物料               |
+| 扫描按钮 | ![TKTFW3%QX9FD04CMXI`F2RP](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD/image/Pictures/TKTFW3%QX9FD04CMXI`F2RP.png) | 通过扫码的方式添加物料               |
 
 
 
@@ -40,7 +40,7 @@
 
 仓库管理主要分为APP客户端（安卓版），后台管理两部分，APP客户端（主要包含库存任务、库存汇报两个功能模块），后台包括（）。其中仓库管理APP示意图如下：
 
-![](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/gongneng.png)
+![gongneng](image/UserGuide_AppStockManagement.assets/gongneng.png)
 
 ### 3.功能说明
 
@@ -52,9 +52,9 @@
 
 ##### 3.1.2 操作步骤
 
-用户大开APP，如已有账套，直接输入用户名和登录密码，后台验证用户信息，如果没有账套则需要在高级设置里设置账套信息。
+用户大开APP，如已有账套，直接输入用户名和登录密码，后台验证用户信息，如果没有账套则需要在高级设置里设置账套信息。                                                                                                                                                                   [UserStory](https://github.com/EDITeam/UserStory)/[InventoryManagement](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement)/[MD](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD)/[image](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD/image)/**Screenshot_20180731-110552_StockManagement-1533006497181.jpg** 
 
-​                                                                                                                                                                   [UserStory](https://github.com/EDITeam/UserStory)/[InventoryManagement](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement)/[MD](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD)/[image](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD/image)/**Screenshot_20180731-110552_StockManagement-1533006497181.jpg** 
+​                                                                                                                                                                 
 
 ​                                                          图 3.1 登录界面
 
