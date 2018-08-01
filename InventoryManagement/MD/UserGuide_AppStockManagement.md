@@ -26,11 +26,11 @@
 
 | 按钮名称 | 按钮形状                                                     | 按钮含义                             |
 | -------- | ------------------------------------------------------------ | ------------------------------------ |
-| 后退按钮 | ![后退]([UserStory](https://github.com/EDITeam/UserStory)/[InventoryManagement](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement)/[MD](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD)/[image](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD/image)/Pictures/TKTFW3%QX9FD04CMXI`F2RP.png) | 后退到上一层页面或者是取消当前操作   |
+| 后退按钮 | ![backbuton](image/backbuton.png)                            | 后退到上一层页面或者是取消当前操作   |
 | 前进按钮 | ![hello123](../../../../../Pictures/hello123.png)            | 完成当前操作以后选择下一步的按钮     |
 | 保存按钮 | ![D98~GT7}NOEV}2G{%Y_%LYU](C:\Users\zy\Desktop\产品设计文档\APP界面\D98~GT7}NOEV}2G{%Y_%LYU.png) | 最后一步操作，保存当前页面的单据信息 |
-| 添加按钮 | ![HP7RIOM57J%XSD{W5SN1@3I](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/HP7RIOM57J%XSD{W5SN1@3I.png) | 手动来添加物料                       |
-| 扫描按钮 | ![TKTFW3%QX9FD04CMXI`F2RP](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD/image/Pictures/TKTFW3%QX9FD04CMXI`F2RP.png) | 通过扫码的方式添加物料               |
+| 添加按钮 | ![HP7RIOM57J%XSD{W5SN1@3I](image/HP7RIOM57J%XSD{W5SN1@3I.png) | 手动来添加物料                       |
+| 扫描按钮 | ![TKTFW3%QX9FD04CMXI`F2RP](image/TKTFW3%QX9FD04CMXI`F2RP.png) | 通过扫码的方式添加物料               |
 
 
 
@@ -42,6 +42,8 @@
 
 ![gongneng](image/UserGuide_AppStockManagement.assets/gongneng.png)
 
+​                                                                           图 2.1 功能结构图
+
 ### 3.功能说明
 
 #### 3.1 登录功能
@@ -52,9 +54,9 @@
 
 ##### 3.1.2 操作步骤
 
-用户大开APP，如已有账套，直接输入用户名和登录密码，后台验证用户信息，如果没有账套则需要在高级设置里设置账套信息。                                                                                                                                                                   [UserStory](https://github.com/EDITeam/UserStory)/[InventoryManagement](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement)/[MD](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD)/[image](https://github.com/EDITeam/UserStory/tree/master/InventoryManagement/MD/image)/**Screenshot_20180731-110552_StockManagement-1533006497181.jpg** 
+用户大开APP，如已有账套，直接输入用户名和登录密码，后台验证用户信息，如果没有账套则需要在高级设置里设置账套信息。                                                                                                                                                                   
 
-​                                                                                                                                                                 
+​                                      ![Screenshot_20180731-110552_StockManagement-1533006497181 - 副本](image/Screenshot_20180731-110552_StockManagement-1533006497181 - 副本.jpg)                                                                                                                           
 
 ​                                                          图 3.1 登录界面
 
@@ -70,17 +72,25 @@
 
 用户点击库存任务图标，打开库存任务如下图所示，
 
-![Screenshot_20180729-105451_StockManagement](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180729-105451_StockManagement.jpg)
+![Screenshot_20180729-105451_StockManagement](image/Screenshot_20180729-105451_StockManagement.jpg)
 
-​                                                                                  图 2.1 功能界面
+​                                                                
 
-![Screenshot_20180729-105458_StockManagement](C:\Users\zy\Documents\Tencent Files\1119641989\FileRecv\MobileFile\Screenshot_20180729-105458_StockManagement.jpg)
-
-
-
-![Screenshot_20180731-141539_StockManagement](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180731-141539_StockManagement.jpg)
+​                  图 3.1 功能界面
 
 
+
+
+
+
+
+![Screenshot_20180801-112627_StockManagement](image/Screenshot_20180801-112627_StockManagement.jpg)
+
+​                                                                    图3.2 库存任务列表
+
+![Screenshot_20180731-141709_StockManagement](image/Screenshot_20180731-141709_StockManagement.jpg)
+
+​                                                 图3.3 库存汇报界面
 
 * 用户在查看所有的库存任务，倘若用户想查看某一单详情，或者是优先做某个任务可以根据订单编号，供应商名称，供应商编码来来查询到这一单。
 * 点击库存任务中的行信息进去查看库存任务详情，在库存任务详情界面用户可以查看当前任务的物料信息。
@@ -93,6 +103,14 @@
 库存汇报是仓管人员根据当前的订单信息为物料做出库或者是入库的管理，添加物料有两种方式一种是手动添加，一种是扫码的方式来添加物料，若设备损坏，或者是条码不清晰选择用。
 
 ##### 3.3.2 操作步骤
+
+![Screenshot_20180801-113255_StockManagement](image/Screenshot_20180801-113255_StockManagement.jpg)
+
+​                                          图3.4 扫描物料信息界面
+
+![Screenshot_20180731-141604_StockManagement](image/Screenshot_20180731-141604_StockManagement.jpg)
+
+​                                             图3.5 手动添加物料界面
 
 * 库管人员在此页面上点开隐藏的物料信息，根据页面上的物料信息去添加物料。
 * 点击右下角扫描按钮，扫描成功物料信息会在一个物料信息的窗口弹出，核对物料信息，如果核实无误点击右下角的对号按钮保存物料信息。
@@ -107,9 +125,17 @@
 
 ##### 3.4.2操作步骤
 
-![Screenshot_20180731-141816_StockManagement](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180731-141816_StockManagement.jpg)
+![Screenshot_20180731-141816_StockManagement](image/Screenshot_20180731-141816_StockManagement.jpg)
 
-![Screenshot_20180731-141845_StockManagement](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/Screenshot_20180731-141845_StockManagement.jpg)
+​                                                   图3.5 库存汇报历史界面
+
+![Screenshot_20180731-141810_StockManagement](image/Screenshot_20180731-141810_StockManagement.jpg)
+
+​                                                         图3.6 库存汇报明细界面
+
+![Screenshot_20180731-141845_StockManagement](image/Screenshot_20180731-141845_StockManagement.jpg)
+
+​                                                            图3.7 库存汇报编辑界面
 
 * 点击库存汇报图标进入库存汇报历史界面，此界面显示了所有已经汇报过的库存任务。
 * 点击一行汇报过的库存任务可以查看库存任务详情
