@@ -26,8 +26,8 @@
 
 | 按钮名称 | 按钮形状                                                     | 按钮含义                             |
 | -------- | ------------------------------------------------------------ | ------------------------------------ |
-| 后退按钮 | ![](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/backbuton.png) | 后退到上一层页面或者是取消当前操作   |
-| 前进按钮 | ![](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/hello123.png) | 完成当前操作以后选择下一步的按钮     |
+| 后退按钮 | ![TKTFW3%QX9FD04CMXI`F2RP](../../../../../Pictures/TKTFW3%QX9FD04CMXI`F2RP.png) | 后退到上一层页面或者是取消当前操作   |
+| 前进按钮 | ![hello123](../../../../../Pictures/hello123.png)            | 完成当前操作以后选择下一步的按钮     |
 | 保存按钮 | ![D98~GT7}NOEV}2G{%Y_%LYU](C:\Users\zy\Desktop\产品设计文档\APP界面\D98~GT7}NOEV}2G{%Y_%LYU.png) | 最后一步操作，保存当前页面的单据信息 |
 | 添加按钮 | ![HP7RIOM57J%XSD{W5SN1@3I](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD\UserGuide_AppStockManagement.assets/HP7RIOM57J%XSD{W5SN1@3I.png) | 手动来添加物料                       |
 | 扫描按钮 | ![TKTFW3%QX9FD04CMXI`F2RP](D:\iWorkSpace\GitHub\UserStory\InventoryManagement\MD/TKTFW3%QX9FD04CMXI`F2RP.png) | 通过扫码的方式添加物料               |
